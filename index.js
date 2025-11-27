@@ -5,7 +5,7 @@ import serviceAccount from "./firebase-service-account.json" assert { type: "jso
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com"
+  databaseURL: "https://earn-pe-56d81-default-rtdb.firebaseio.com/"
 });
 
 const db = admin.database();
